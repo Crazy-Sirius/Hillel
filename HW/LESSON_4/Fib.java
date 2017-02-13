@@ -8,10 +8,10 @@ public class Fib {
         Scanner scan = new Scanner(System.in);
         int xN = scan.nextInt();
         int sUmFib = 0;
-        for (int j=1; j<=xN; j++){
-            sUmFib = sUmFib + fib(j);
-        }
-       System.out.print(sUmFib);
+      //  for (int j=1; j<=xN; j++){
+      //      sUmFib = sUmFib + fib(j);
+      //  }
+       System.out.print(fib(xN));
     }
     public static int fib(int n){
         if (n <= 0) {return 0;}
