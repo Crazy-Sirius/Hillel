@@ -18,18 +18,28 @@ public class Pechat {
 
                 float err = (yI / delta -xI);
 
-                if ((yI == 0) ||(yI == yMax)){
+                if ((yI == 0)  | (xI == 0) | (yI == yMax)) {
                     System.out.print("*");
                 }
+
                 if ((err < 0.5) & (err >= 0)) {
                     str = str + "*";
-                    for (int j=1; j< (xMax-2*xI) ;j++){
-                        str = str+"x ";
-                    }
+                  //  for (int j=1; j< (xMax-2*xI) ;j++){
+                  //      str = str+"x ";
+                  //  }
                 }
-                else str = str + " ";
+                  else
+                      if (xI == xMax - 1) {
+                        str = str + "*";
+                      }
+                        else str = str + " ";
+
+
             }
-            System.out.println(str);
+                        System.out.println(str);
+
+
+
         }
     }
 }
