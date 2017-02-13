@@ -36,7 +36,7 @@ public class Pechat {
 
 
             }
-                        System.out.println(str);
+            System.out.println(str);
 
 
 
