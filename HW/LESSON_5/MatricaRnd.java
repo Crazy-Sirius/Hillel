@@ -68,7 +68,7 @@ public class MatricaRnd {
         int numberPositivElements = 0;
         for (int i = 0; i <= 9; i++) {
             for (int j = 0; j <= 9; j++) {
-                if ((array[i][j] > 0) & (array [i][j] !=0)) {
+                if ((array[i][j] > 0) &  (array [i][j] !=0)) {
                     numberPositivElements = numberPositivElements + 1;
                 }
             }
