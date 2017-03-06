@@ -17,9 +17,9 @@ public class ArrayList {
         return size;
     }
 
-    public int getElIndex(Object o,){
+    /*public int getElIndex(Object o,){
         return this.list.;
-    }
+    } */
     public void setEl(Object o){
         Object[] newList = new Object[size + 1];
         for (int i = 0; i < size; i++) {
