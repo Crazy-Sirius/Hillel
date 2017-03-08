@@ -6,11 +6,15 @@ public class Main {
         CollectionLinkedList list = new CollectionLinkedList();
         list.add("first");
         list.add("second");
+        list.add("third");
 
         for (Object o :list){
             System.out.println(o);
+            System.out.println();
 
     }
+        System.out.println("Size is: " + list.getSize());
+
 
 //IteratorLinkedList it = new IteratorLinkedList()
     }

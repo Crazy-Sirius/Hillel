@@ -7,6 +7,8 @@ import java.util.List;
  */
 public class CollectionLinkedList implements Iterable {
  private   Element first;
+ private int size = 0;
+
     public  void add(Object o) {
         Element toAdd = new Element(null, o);
 
@@ -17,6 +19,10 @@ public class CollectionLinkedList implements Iterable {
             Element last = findLast();
             last.next = toAdd;
         }
+        size++;
+    }
+    public int getSize(){
+        return this.size;
     }
 
     private Element findLast() {
