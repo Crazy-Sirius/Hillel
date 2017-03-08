@@ -12,6 +12,6 @@ public class Main {
 
     }
 
-IteratorLinkedList it = new IteratorLinkedList()
+//IteratorLinkedList it = new IteratorLinkedList()
     }
 }
