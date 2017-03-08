@@ -11,6 +11,7 @@ public class Main {
             System.out.println(o);
 
     }
-//IteratorLinkedList it = new IteratorLinkedList()
+
+IteratorLinkedList it = new IteratorLinkedList()
     }
 }
